@@ -17,7 +17,7 @@ public class Bus_Pass {
     }
 
      public Bus_Pass() {
-        //TODO Auto-generated constructor stub
+        
     }
 
      void set_passid(int pass_id)
