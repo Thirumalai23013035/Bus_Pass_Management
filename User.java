@@ -17,6 +17,12 @@ public class User {
 
 
     
+    public User() {
+        //TODO Auto-generated constructor stub
+    }
+
+
+
     void set_id(int user_id)
     {
         this.user_id = user_id;

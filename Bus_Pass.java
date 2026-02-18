@@ -16,6 +16,10 @@ public class Bus_Pass {
         this.validity= validity;
     }
 
+     public Bus_Pass() {
+        //TODO Auto-generated constructor stub
+    }
+
      void set_passid(int pass_id)
     {
         this.pass_id = pass_id;
@@ -48,12 +52,12 @@ public class Bus_Pass {
         return route;
     }
 
-    void set_type(String type)
+    void set_passtype(String type)
     {
         this.type = type;
     }
 
-    String get_type()
+    String get_passtype()
     {
         return type;
     }
